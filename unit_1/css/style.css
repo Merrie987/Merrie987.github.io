@@ -1,7 +1,26 @@
-h1, p {
-	color: #eeeeee;
+h1,p{
+	color: #E9E9DD;
+	font-family: Tahoma, sans-serif;
+	font-size: 36px;
+	text-align: center;
+	}
+#slogan{
+	font-style:italic;
+	text-align: center;
+
+}
+#summary{
+	font-size:24px;
+}
+ul{
+	text-align: center;
+	list-style-type: none;
+}
+
+#contact{
+	font-size:18px;
 }
 
 body {
-	background-color: #666666  ;
+	background-color: #ADD4DB  ;
 }
