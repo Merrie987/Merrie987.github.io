@@ -1,16 +1,25 @@
+@import url(http://fonts.googleapis.com/css?family=Cinzel+Decorative);
+
 h1,p{
-	color: #E9E9DD;
-	font-family: Tahoma, sans-serif;
+	color: #F3F3E7;
+	font-family: 'Cinzel Decorative', cursive, serif;
 	font-size: 36px;
 	text-align: center;
+	font-weight: bold;
+
 	}
 #slogan{
 	font-style:italic;
 	text-align: center;
+	font-family: 'Cinzel Decorative', cursive, serif;
 
 }
 #summary{
+	color: #F3F3E7;
+	font-family: helvetica, georgia, sans-serif;
 	font-size:24px;
+	text-align: center;
+	font-variant: small-caps;
 }
 ul{
 	text-align: center;
