@@ -1,0 +1,45 @@
+@import url(http://fonts.googleapis.com/css?family=Fredericka+the+Great);
+@import url(http://fonts.googleapis.com/css?family=Cinzel:400,700);
+@import url(fonts/OldNewspaperTypes.ttf);
+
+#header {
+	font-family:'OldNewspaperTypes', cursive, 'Fredericka the Great';
+	font-size:32px;
+	color: #121212;
+	border: 4px double #000000; 
+	text-align: center;
+	padding: 36px;
+	background: #D3EBF4;
+}
+
+#nav {
+	font-family:'Cinzel', serif;
+	font-size: 24px;
+	text-align: center;
+	padding: 36px;
+	background: #F4E4D3;
+	border: 4px double #000000; 
+
+}
+
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+	
+#contact {
+	font-family:"Cinzel";
+	font-size: 18px;
+	text-align: center;
+	padding: 36px;
+	background: #D3EBF4;
+	border: 4px double #000000;
+}
+
+.blog {
+	text-align: center;
+}
+
+body {
+	backgroud:#468EA7;
+}
