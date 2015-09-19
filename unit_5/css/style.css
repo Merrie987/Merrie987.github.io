@@ -1,45 +1,79 @@
 @import url(http://fonts.googleapis.com/css?family=Fredericka+the+Great);
 @import url(http://fonts.googleapis.com/css?family=Cinzel:400,700);
-@import url(fonts/OldNewspaperTypes.ttf);
+
+body {
+	background:#FFFFFF;
+	font-size: 8px;
+}
 
 #header {
-	font-family:'OldNewspaperTypes', cursive, 'Fredericka the Great';
-	font-size:32px;
+	font-family:'Cinzel', serif;
+	font-style: bold;
+	font-size:4.2em;
 	color: #121212;
-	border: 4px double #000000; 
+	border: 0.2em double #000000; 
 	text-align: center;
-	padding: 36px;
+	padding: 2em;
 	background: #D3EBF4;
 }
 
 #nav {
 	font-family:'Cinzel', serif;
-	font-size: 24px;
+	font-size: 3em;
 	text-align: center;
-	padding: 36px;
+	padding: 2em;
 	background: #F4E4D3;
-	border: 4px double #000000; 
+	border: 0.2em double #000000; 
 
 }
 
 #wrapper {
-	width: 1000px;
+	width: 80%;
 	margin: 0 auto;
 }
 	
 #contact {
 	font-family:"Cinzel";
-	font-size: 18px;
+	font-size: 3em;
 	text-align: center;
-	padding: 36px;
+	padding: 2em;
 	background: #D3EBF4;
-	border: 4px double #000000;
+	border: 0.2em double #000000;
 }
 
 .blog {
 	text-align: center;
+	font-size: 2em;
 }
 
-body {
-	background:#FFFFFF;
+img {
+	max-width: 100%
+}
+
+@media only screen and (max-width: 768px) {
+	body {
+		font-size: 10px;
+	}
+
+	h1 {
+		font-size: 1em;
+		width: auto;
+		display: inline;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	body {
+		font-size: 6px;
+	}
+
+	h1 {
+		font-size: 0.7em;
+		width: auto;
+		display: inline;
+	}
+
+	#contact {
+		display: none;
+	}
 }
