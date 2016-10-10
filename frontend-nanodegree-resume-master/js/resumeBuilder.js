@@ -179,20 +179,19 @@ var projects = {
   "projects": [
     {
       "title": "HTML Email",
-      "url": "www.example.com",
+      "url": "http://merrie987.github.io/unit_11/email.html",
       "dates": "October 2015 - October 2015",
       "description": "The final project in General Assembly's Front-End Web Development Program.",
-      "images": ["images/email.psd"]
     },
     {
       "title": "Online Resume",
-      "url": "www.example.com",
+      "url": "http://merrie987.github.io/frontend-nanodegree-resume-master/index.html",
       "dates": "March 2016 ~ April 2016",
       "description": "This website was part of Udacity's Front-End Web Developer Nanodegree.",
     },
     {
       "title": "Frogger",
-      "url": "www.example.com",
+      "url": "http://merrie987.github.io/frontend-nanodegree-arcade-game-master/index.html",
       "dates": "April 2016 ~ May 2016",
       "description": "Created an online arcade game for Udacity's Front-End Web Developer Nanodegree.",
     }
